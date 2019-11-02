@@ -1,7 +1,8 @@
 # onmatch
 
-Watch streams for patterns.
+[![Build Status](https://travis-ci.org/reergymerej/onmatch.svg?branch=master)](https://travis-ci.org/reergymerej/onmatch)
 
+Watch streams for patterns.
 ```js
 import onMatch from 'onmatch'
 
@@ -17,9 +18,7 @@ stream.write(Buffer.from('start')) // assumed to be utf8
 stream.write('boop')
 stream.write('end') // handleMatch('startboopend')
 ```
-
 You'd probably want to pipe the incoming stream in practice.
-
 ```js
 const stream = onMatch(pattern)
 stream.on('match', handleMatch)

@@ -1,5 +1,12 @@
 {
   "name": "onmatch",
+  "description": "Watch streams for patterns.",
+  "keywords": [
+    "stream",
+    "regex",
+    "pattern",
+    "incremental"
+  ],
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
@@ -23,5 +30,6 @@
     "eslint": "4.18.2",
     "eslint-scope": "^5.0.0",
     "jest": "^24.8.0"
-  }
+  },
+  "repository": "git@github.com:reergymerej/onmatch.git"
 }
